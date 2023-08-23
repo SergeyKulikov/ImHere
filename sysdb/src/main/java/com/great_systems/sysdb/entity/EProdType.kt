@@ -1,4 +1,4 @@
-package com.great_systems.imhere.system.room.entity
+package com.great_systems.sysdb.entity
 
 enum class EProdType {
     ptProduction,   // 41

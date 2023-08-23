@@ -1,8 +1,8 @@
 package com.great_systems.imhere
 
-import com.great_systems.imhere.system.room.entity.PreferenceData
+import com.great_systems.sysdb.entity.PreferenceData
 
 object AppData {
     @JvmStatic
-    lateinit var preferenceData: PreferenceData
+    lateinit var preferenceData: com.great_systems.sysdb.entity.PreferenceData
 }

@@ -1,8 +1,7 @@
 package com.great_systems.imhere
 
 import android.app.Application
-import com.great_systems.imhere.system.room.SystemDatabase
-import com.great_systems.imhere.system.room.entity.PreferenceData
+import com.great_systems.sysdb.SystemDatabase
 
 open class App: Application() {
     companion object {
@@ -13,7 +12,7 @@ open class App: Application() {
          * которые могут вести в одной программе.
          */
 
-        @JvmStatic lateinit var system: SystemDatabase
+        @JvmStatic lateinit var system: com.great_systems.sysdb.SystemDatabase
 
     }
 

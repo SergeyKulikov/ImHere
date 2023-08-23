@@ -1,6 +1,8 @@
-package com.great_systems.imhere.system.room.entity;
+package com.great_systems.sysdb.entity;
 
 public interface IPref {
+
+
     String NEED_REGISTRATION_PREF_KEY = "com.great_systems.abacus.need_registration_key"; // запросить регистрацию
     String NEED_LOGIN_PREF_KEY = "com.great_systems.abacus.need_login_key"; // запросить логин
     String NEED_AUTOLOGIN_PREF_KEY = "com.great_systems.abacus.auto_login_key"; // перелогинится автоматически

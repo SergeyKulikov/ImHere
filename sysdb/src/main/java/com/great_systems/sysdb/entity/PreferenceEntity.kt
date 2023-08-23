@@ -1,8 +1,7 @@
-package com.great_systems.imhere.system.room.entity
+package com.great_systems.sysdb.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
-import com.great_systems.imhere.system.room.entity.EPrefType
 import java.util.UUID
 
 @Entity(primaryKeys = ["company_uuid", "user_uuid", "pref_type"])

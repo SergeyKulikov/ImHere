@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--         android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+ -->
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/checkbox_list_dialog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:paddingTop="0dp"
+        android:gravity="top"
+        android:layout_marginLeft="8dp"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:text="TextView  djhjhjd jhhjjhd dkjkjkc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_photo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView  djhjhjd jhhjjhd dkjkjkc"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="11sp"
+        android:layout_marginTop="-16dp"
+        app:layout_constraintStart_toStartOf="@+id/checkbox_list_dialog"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_list_dialog" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

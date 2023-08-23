@@ -1,11 +1,11 @@
-package com.great_systems.imhere.system.room
+package com.great_systems.sysdb
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.great_systems.imhere.system.room.entity.EPrefType
-import com.great_systems.imhere.system.room.entity.PreferenceEntity
+import com.great_systems.sysdb.entity.EPrefType
+import com.great_systems.sysdb.entity.PreferenceEntity
 import java.util.UUID
 
 @Dao
